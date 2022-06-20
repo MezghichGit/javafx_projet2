@@ -26,9 +26,9 @@ public class Main extends Application {
         //layout.setSpacing(20);
         VBox layout = new VBox(Button1, Button2, Button3);
         
-        VBox.setMargin(Button1, new Insets(40,0,60,120)); // top right buttom left
-        VBox.setMargin(Button2, new Insets(40,0,0,120));
-        VBox.setMargin(Button3, new Insets(40,0,0,120));
+        VBox.setMargin(Button1, new Insets(40,0,10,100)); // top right buttom left
+        VBox.setMargin(Button2, new Insets(40,0,10,100));
+        VBox.setMargin(Button3, new Insets(40,0,10,100));
         
         //layout.getChildren().addAll(Button1, Button2, Button3);
         
