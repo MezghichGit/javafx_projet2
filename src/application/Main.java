@@ -21,6 +21,7 @@ public class Main extends Application {
         //layout.setAlignment(Pos.BASELINE_CENTER);
         //layout.setAlignment(Pos.BOTTOM_CENTER);
         layout.setAlignment(Pos.CENTER);
+        layout.setSpacing(20);
         layout.getChildren().addAll(Button1, Button2, Button3);
         
         Scene scene = new Scene(layout, 300, 300);  
